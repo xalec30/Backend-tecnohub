@@ -1372,3 +1372,17 @@ CRITICAL - 2024-06-09 20:46:08 --> ErrorException: Declaration of App\Controller
 [Method: GET, Route: api/v1/roles]
 in APPPATH\Controllers\Api\V1\Roles.php on line 15.
  1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-09 21:04:49 --> CodeIgniter\Database\Exceptions\DataException: "add_status" is not a valid Model Event callback.
+[Method: POST, Route: api/v1/comments/]
+in SYSTEMPATH\BaseModel.php on line 1695.
+ 1 SYSTEMPATH\BaseModel.php(1695): CodeIgniter\Database\Exceptions\DataException::forInvalidMethodTriggered('add_status')
+ 2 SYSTEMPATH\BaseModel.php(837): CodeIgniter\BaseModel->trigger('beforeInsert', [...])
+ 3 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Api\V1\Comments.php(39): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Comments->create()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Comments))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')

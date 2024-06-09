@@ -66,6 +66,12 @@ class Validation extends BaseConfig
         'name'         => ['required','max_length[100]'],   
     ];
 
+    public array $comment = [
+        'resource_id'       => ['required','numeric'],
+        'comment'           => ['required','alpha_numeric'],
+        'user_id'           => ['required','numeric'],
+    ];
+
     public array $id = [
         'id' => 'required|numeric',
     ];
