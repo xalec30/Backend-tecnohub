@@ -104,3 +104,1244 @@ in APPPATH\Controllers\Api\V1\Users.php on line 17.
  5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
  7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 18:42:05 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\UsersModel"
+[Method: POST, Route: api/v1/users]
+in SYSTEMPATH\Model.php on line 813.
+ 1 SYSTEMPATH\Model.php(813): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\UsersModel')
+ 2 SYSTEMPATH\BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Api\V1\Users.php(38): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 18:42:14 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\UsersModel"
+[Method: POST, Route: api/v1/users]
+in SYSTEMPATH\Model.php on line 813.
+ 1 SYSTEMPATH\Model.php(813): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\UsersModel')
+ 2 SYSTEMPATH\BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Api\V1\Users.php(37): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 18:42:16 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\UsersModel"
+[Method: POST, Route: api/v1/users]
+in SYSTEMPATH\Model.php on line 813.
+ 1 SYSTEMPATH\Model.php(813): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\UsersModel')
+ 2 SYSTEMPATH\BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Api\V1\Users.php(37): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 18:42:23 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\UsersModel"
+[Method: POST, Route: api/v1/users]
+in SYSTEMPATH\Model.php on line 813.
+ 1 SYSTEMPATH\Model.php(813): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\UsersModel')
+ 2 SYSTEMPATH\BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Api\V1\Users.php(37): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 18:42:24 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\UsersModel"
+[Method: POST, Route: api/v1/users]
+in SYSTEMPATH\Model.php on line 813.
+ 1 SYSTEMPATH\Model.php(813): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\UsersModel')
+ 2 SYSTEMPATH\BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Api\V1\Users.php(37): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 18:42:34 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\UsersModel"
+[Method: POST, Route: api/v1/users]
+in SYSTEMPATH\Model.php on line 813.
+ 1 SYSTEMPATH\Model.php(813): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\UsersModel')
+ 2 SYSTEMPATH\BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Api\V1\Users.php(37): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 18:42:45 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\UsersModel"
+[Method: POST, Route: api/v1/users]
+in SYSTEMPATH\Model.php on line 813.
+ 1 SYSTEMPATH\Model.php(813): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\UsersModel')
+ 2 SYSTEMPATH\BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Api\V1\Users.php(38): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 18:42:50 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\UsersModel"
+[Method: POST, Route: api/v1/users]
+in SYSTEMPATH\Model.php on line 813.
+ 1 SYSTEMPATH\Model.php(813): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\UsersModel')
+ 2 SYSTEMPATH\BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Api\V1\Users.php(38): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 18:42:51 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\UsersModel"
+[Method: POST, Route: api/v1/users]
+in SYSTEMPATH\Model.php on line 813.
+ 1 SYSTEMPATH\Model.php(813): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\UsersModel')
+ 2 SYSTEMPATH\BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Api\V1\Users.php(38): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 18:43:39 --> ErrorException: Undefined array key 0
+[Method: POST, Route: api/v1/users]
+in APPPATH\Controllers\Api\V1\Users.php on line 35.
+ 1 APPPATH\Controllers\Api\V1\Users.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\app\\Controllers\\Api\\V1\\Users.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 18:44:05 --> ErrorException: Undefined array key 0
+[Method: POST, Route: api/v1/users]
+in APPPATH\Controllers\Api\V1\Users.php on line 34.
+ 1 APPPATH\Controllers\Api\V1\Users.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\app\\Controllers\\Api\\V1\\Users.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 18:44:07 --> ErrorException: Undefined array key 0
+[Method: POST, Route: api/v1/users]
+in APPPATH\Controllers\Api\V1\Users.php on line 34.
+ 1 APPPATH\Controllers\Api\V1\Users.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\app\\Controllers\\Api\\V1\\Users.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 18:46:43 --> ErrorException: Undefined array key 0
+[Method: POST, Route: api/v1/users]
+in APPPATH\Controllers\Api\V1\Users.php on line 35.
+ 1 APPPATH\Controllers\Api\V1\Users.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\app\\Controllers\\Api\\V1\\Users.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 18:49:26 --> TypeError: CodeIgniter\Controller::validate(): Argument #2 ($messages) must be of type array, string given, called in C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\app\Controllers\Api\V1\Users.php on line 31
+[Method: POST, Route: api/v1/users]
+in SYSTEMPATH\Controller.php on line 133.
+ 1 APPPATH\Controllers\Api\V1\Users.php(31): CodeIgniter\Controller->validate([...], 'user')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 18:49:28 --> TypeError: CodeIgniter\Controller::validate(): Argument #2 ($messages) must be of type array, string given, called in C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\app\Controllers\Api\V1\Users.php on line 31
+[Method: POST, Route: api/v1/users]
+in SYSTEMPATH\Controller.php on line 133.
+ 1 APPPATH\Controllers\Api\V1\Users.php(31): CodeIgniter\Controller->validate([...], 'user')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 18:56:40 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\UsersModel"
+[Method: POST, Route: api/v1/users]
+in SYSTEMPATH\Model.php on line 813.
+ 1 SYSTEMPATH\Model.php(813): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\UsersModel')
+ 2 SYSTEMPATH\BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 18:58:04 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\UsersModel"
+[Method: POST, Route: api/v1/users]
+in SYSTEMPATH\Model.php on line 813.
+ 1 SYSTEMPATH\Model.php(813): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\UsersModel')
+ 2 SYSTEMPATH\BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+ERROR - 2024-06-09 18:59:31 --> ErrorException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «username» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (1, null, Alexander, null, Rodriguez, xalecr30@gmail.com, 12345, 1, null, null, null). in C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\Postgre\Connection.php:193
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\Indate...', 193)
+#1 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\Postgre\Connection.php(193): pg_query(Object(PgSql\Connection), 'INSERT INTO "us...')
+#2 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\BaseConnection.php(722): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "us...')
+#3 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "us...')
+#4 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "us...', Array, false)
+#5 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#7 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Model.php(791): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\app\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert(Array)
+#9 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+#10 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+#11 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indate...')
+#16 {main}
+CRITICAL - 2024-06-09 18:59:31 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «username» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (1, null, Alexander, null, Rodriguez, xalecr30@gmail.com, 12345, 1, null, null, null).
+[Method: POST, Route: api/v1/users]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("name", "middle_name", "last_name", "password", "email", "role_id") VALUES (:name:, :middle_name:, :last_name:, :password:, :email:, :role_id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 18:59:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «username» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (1, null, Alexander, null, Rodriguez, xalecr30@gmail.com, 12345, 1, null, null, null).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 198.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "users" ("name", "middle_name", "last_name", "password", "email", "role_id") VALUES (\'Alexander\', NULL, \'Rodriguez\', \'12345\', \'xalecr30@gmail.com\', \'1\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "users" ("name", "middle_name", "last_name", "password", "email", "role_id") VALUES (\'Alexander\', NULL, \'Rodriguez\', \'12345\', \'xalecr30@gmail.com\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("name", "middle_name", "last_name", "password", "email", "role_id") VALUES (:name:, :middle_name:, :last_name:, :password:, :email:, :role_id:)', [...], false)
+ 4 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 18:59:31 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «username» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (1, null, Alexander, null, Rodriguez, xalecr30@gmail.com, 12345, 1, null, null, null).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 193.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  el valor nulo en la columna «username» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (1, null, Alexander, null, Rodriguez, xalecr30@gmail.com, 12345, 1, null, null, null).', 'C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\system\\Database\\Postgre\\Connection.php', 193)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(193): pg_query(Object(PgSql\Connection), 'INSERT INTO "users" ("name", "middle_name", "last_name", "password", "email", "role_id") VALUES (\'Alexander\', NULL, \'Rodriguez\', \'12345\', \'xalecr30@gmail.com\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "users" ("name", "middle_name", "last_name", "password", "email", "role_id") VALUES (\'Alexander\', NULL, \'Rodriguez\', \'12345\', \'xalecr30@gmail.com\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "users" ("name", "middle_name", "last_name", "password", "email", "role_id") VALUES (\'Alexander\', NULL, \'Rodriguez\', \'12345\', \'xalecr30@gmail.com\', \'1\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("name", "middle_name", "last_name", "password", "email", "role_id") VALUES (:name:, :middle_name:, :last_name:, :password:, :email:, :role_id:)', [...], false)
+ 6 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+ERROR - 2024-06-09 19:00:26 --> ErrorException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «username» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (2, null, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null). in C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\Postgre\Connection.php:193
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\Indate...', 193)
+#1 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\Postgre\Connection.php(193): pg_query(Object(PgSql\Connection), 'INSERT INTO "us...')
+#2 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\BaseConnection.php(722): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "us...')
+#3 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "us...')
+#4 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "us...', Array, false)
+#5 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#7 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Model.php(791): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\app\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert(Array)
+#9 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+#10 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+#11 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indate...')
+#16 {main}
+CRITICAL - 2024-06-09 19:00:26 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «username» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (2, null, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).
+[Method: POST, Route: api/v1/users]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("name", "middle_name", "last_name", "password", "email", "role_id") VALUES (:name:, :middle_name:, :last_name:, :password:, :email:, :role_id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 19:00:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «username» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (2, null, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 198.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "users" ("name", "middle_name", "last_name", "password", "email", "role_id") VALUES (\'alex\', NULL, \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "users" ("name", "middle_name", "last_name", "password", "email", "role_id") VALUES (\'alex\', NULL, \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("name", "middle_name", "last_name", "password", "email", "role_id") VALUES (:name:, :middle_name:, :last_name:, :password:, :email:, :role_id:)', [...], false)
+ 4 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 19:00:26 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «username» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (2, null, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 193.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  el valor nulo en la columna «username» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (2, null, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).', 'C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\system\\Database\\Postgre\\Connection.php', 193)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(193): pg_query(Object(PgSql\Connection), 'INSERT INTO "users" ("name", "middle_name", "last_name", "password", "email", "role_id") VALUES (\'alex\', NULL, \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "users" ("name", "middle_name", "last_name", "password", "email", "role_id") VALUES (\'alex\', NULL, \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "users" ("name", "middle_name", "last_name", "password", "email", "role_id") VALUES (\'alex\', NULL, \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("name", "middle_name", "last_name", "password", "email", "role_id") VALUES (:name:, :middle_name:, :last_name:, :password:, :email:, :role_id:)', [...], false)
+ 6 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+ERROR - 2024-06-09 19:01:39 --> ErrorException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «username» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (3, null, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null). in C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\Postgre\Connection.php:193
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\Indate...', 193)
+#1 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\Postgre\Connection.php(193): pg_query(Object(PgSql\Connection), 'INSERT INTO "us...')
+#2 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\BaseConnection.php(722): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "us...')
+#3 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "us...')
+#4 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "us...', Array, false)
+#5 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#7 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Model.php(791): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\app\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert(Array)
+#9 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+#10 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+#11 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indate...')
+#16 {main}
+CRITICAL - 2024-06-09 19:01:39 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «username» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (3, null, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).
+[Method: POST, Route: api/v1/users]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("name", "middle_name", "last_name", "password", "email", "role_id") VALUES (:name:, :middle_name:, :last_name:, :password:, :email:, :role_id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 19:01:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «username» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (3, null, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 198.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "users" ("name", "middle_name", "last_name", "password", "email", "role_id") VALUES (\'alex\', NULL, \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "users" ("name", "middle_name", "last_name", "password", "email", "role_id") VALUES (\'alex\', NULL, \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("name", "middle_name", "last_name", "password", "email", "role_id") VALUES (:name:, :middle_name:, :last_name:, :password:, :email:, :role_id:)', [...], false)
+ 4 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 19:01:39 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «username» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (3, null, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 193.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  el valor nulo en la columna «username» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (3, null, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).', 'C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\system\\Database\\Postgre\\Connection.php', 193)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(193): pg_query(Object(PgSql\Connection), 'INSERT INTO "users" ("name", "middle_name", "last_name", "password", "email", "role_id") VALUES (\'alex\', NULL, \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "users" ("name", "middle_name", "last_name", "password", "email", "role_id") VALUES (\'alex\', NULL, \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "users" ("name", "middle_name", "last_name", "password", "email", "role_id") VALUES (\'alex\', NULL, \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("name", "middle_name", "last_name", "password", "email", "role_id") VALUES (:name:, :middle_name:, :last_name:, :password:, :email:, :role_id:)', [...], false)
+ 6 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+ERROR - 2024-06-09 19:02:37 --> ErrorException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «username» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (4, null, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null). in C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\Postgre\Connection.php:193
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\Indate...', 193)
+#1 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\Postgre\Connection.php(193): pg_query(Object(PgSql\Connection), 'INSERT INTO "us...')
+#2 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\BaseConnection.php(722): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "us...')
+#3 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "us...')
+#4 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "us...', Array, false)
+#5 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#7 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Model.php(791): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\app\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert(Array)
+#9 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+#10 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+#11 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indate...')
+#16 {main}
+CRITICAL - 2024-06-09 19:02:37 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «username» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (4, null, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).
+[Method: POST, Route: api/v1/users]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("name", "middle_name", "last_name", "password", "email", "role_id") VALUES (:name:, :middle_name:, :last_name:, :password:, :email:, :role_id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 19:02:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «username» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (4, null, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 198.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "users" ("name", "middle_name", "last_name", "password", "email", "role_id") VALUES (\'alex\', NULL, \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "users" ("name", "middle_name", "last_name", "password", "email", "role_id") VALUES (\'alex\', NULL, \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("name", "middle_name", "last_name", "password", "email", "role_id") VALUES (:name:, :middle_name:, :last_name:, :password:, :email:, :role_id:)', [...], false)
+ 4 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 19:02:37 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «username» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (4, null, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 193.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  el valor nulo en la columna «username» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (4, null, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).', 'C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\system\\Database\\Postgre\\Connection.php', 193)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(193): pg_query(Object(PgSql\Connection), 'INSERT INTO "users" ("name", "middle_name", "last_name", "password", "email", "role_id") VALUES (\'alex\', NULL, \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "users" ("name", "middle_name", "last_name", "password", "email", "role_id") VALUES (\'alex\', NULL, \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "users" ("name", "middle_name", "last_name", "password", "email", "role_id") VALUES (\'alex\', NULL, \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("name", "middle_name", "last_name", "password", "email", "role_id") VALUES (:name:, :middle_name:, :last_name:, :password:, :email:, :role_id:)', [...], false)
+ 6 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+ERROR - 2024-06-09 19:04:50 --> ErrorException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (5, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null). in C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\Postgre\Connection.php:193
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\Indate...', 193)
+#1 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\Postgre\Connection.php(193): pg_query(Object(PgSql\Connection), 'INSERT INTO "us...')
+#2 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\BaseConnection.php(722): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "us...')
+#3 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "us...')
+#4 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "us...', Array, false)
+#5 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#7 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Model.php(791): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\app\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert(Array)
+#9 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+#10 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+#11 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indate...')
+#16 {main}
+CRITICAL - 2024-06-09 19:04:50 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (5, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).
+[Method: POST, Route: api/v1/users]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("username", "name", "middle_name", "last_name", "password", "email", "role_id") VALUES (:username:, :name:, :middle_name:, :last_name:, :password:, :email:, :role_id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 19:04:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (5, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 198.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "users" ("username", "name", "middle_name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', NULL, \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "users" ("username", "name", "middle_name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', NULL, \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("username", "name", "middle_name", "last_name", "password", "email", "role_id") VALUES (:username:, :name:, :middle_name:, :last_name:, :password:, :email:, :role_id:)', [...], false)
+ 4 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 19:04:50 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (5, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 193.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (5, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).', 'C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\system\\Database\\Postgre\\Connection.php', 193)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(193): pg_query(Object(PgSql\Connection), 'INSERT INTO "users" ("username", "name", "middle_name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', NULL, \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "users" ("username", "name", "middle_name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', NULL, \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "users" ("username", "name", "middle_name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', NULL, \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("username", "name", "middle_name", "last_name", "password", "email", "role_id") VALUES (:username:, :name:, :middle_name:, :last_name:, :password:, :email:, :role_id:)', [...], false)
+ 6 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+ERROR - 2024-06-09 19:05:53 --> ErrorException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (6, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null). in C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\Postgre\Connection.php:193
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\Indate...', 193)
+#1 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\Postgre\Connection.php(193): pg_query(Object(PgSql\Connection), 'INSERT INTO "us...')
+#2 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\BaseConnection.php(722): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "us...')
+#3 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "us...')
+#4 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "us...', Array, false)
+#5 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#7 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Model.php(791): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\app\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert(Array)
+#9 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+#10 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+#11 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indate...')
+#16 {main}
+CRITICAL - 2024-06-09 19:05:53 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (6, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).
+[Method: POST, Route: api/v1/users]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (:username:, :name:, :last_name:, :password:, :email:, :role_id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 19:05:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (6, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 198.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (:username:, :name:, :last_name:, :password:, :email:, :role_id:)', [...], false)
+ 4 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 19:05:53 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (6, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 193.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (6, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).', 'C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\system\\Database\\Postgre\\Connection.php', 193)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(193): pg_query(Object(PgSql\Connection), 'INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (:username:, :name:, :last_name:, :password:, :email:, :role_id:)', [...], false)
+ 6 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+ERROR - 2024-06-09 19:09:25 --> ErrorException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (7, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null). in C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\Postgre\Connection.php:193
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\Indate...', 193)
+#1 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\Postgre\Connection.php(193): pg_query(Object(PgSql\Connection), 'INSERT INTO "us...')
+#2 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\BaseConnection.php(722): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "us...')
+#3 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "us...')
+#4 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "us...', Array, false)
+#5 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#7 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Model.php(791): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\app\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert(Array)
+#9 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+#10 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+#11 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indate...')
+#16 {main}
+CRITICAL - 2024-06-09 19:09:25 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (7, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).
+[Method: POST, Route: api/v1/users]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (:username:, :name:, :last_name:, :password:, :email:, :role_id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 19:09:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (7, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 198.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (:username:, :name:, :last_name:, :password:, :email:, :role_id:)', [...], false)
+ 4 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 19:09:25 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (7, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 193.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (7, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).', 'C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\system\\Database\\Postgre\\Connection.php', 193)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(193): pg_query(Object(PgSql\Connection), 'INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (:username:, :name:, :last_name:, :password:, :email:, :role_id:)', [...], false)
+ 6 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+ERROR - 2024-06-09 19:10:17 --> ErrorException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (8, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null). in C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\Postgre\Connection.php:193
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\Indate...', 193)
+#1 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\Postgre\Connection.php(193): pg_query(Object(PgSql\Connection), 'INSERT INTO "us...')
+#2 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\BaseConnection.php(722): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "us...')
+#3 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "us...')
+#4 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "us...', Array, false)
+#5 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#7 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Model.php(791): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\app\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert(Array)
+#9 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+#10 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+#11 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indate...')
+#16 {main}
+CRITICAL - 2024-06-09 19:10:17 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (8, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).
+[Method: POST, Route: api/v1/users]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (:username:, :name:, :last_name:, :password:, :email:, :role_id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 19:10:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (8, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 198.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (:username:, :name:, :last_name:, :password:, :email:, :role_id:)', [...], false)
+ 4 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 19:10:17 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (8, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 193.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (8, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).', 'C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\system\\Database\\Postgre\\Connection.php', 193)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(193): pg_query(Object(PgSql\Connection), 'INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (:username:, :name:, :last_name:, :password:, :email:, :role_id:)', [...], false)
+ 6 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+ERROR - 2024-06-09 19:10:54 --> ErrorException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (9, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null). in C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\Postgre\Connection.php:193
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\Indate...', 193)
+#1 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\Postgre\Connection.php(193): pg_query(Object(PgSql\Connection), 'INSERT INTO "us...')
+#2 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\BaseConnection.php(722): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "us...')
+#3 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "us...')
+#4 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "us...', Array, false)
+#5 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#7 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Model.php(791): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\app\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert(Array)
+#9 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+#10 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+#11 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indate...')
+#16 {main}
+CRITICAL - 2024-06-09 19:10:54 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (9, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).
+[Method: POST, Route: api/v1/users]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (:username:, :name:, :last_name:, :password:, :email:, :role_id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 19:10:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (9, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 198.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (:username:, :name:, :last_name:, :password:, :email:, :role_id:)', [...], false)
+ 4 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 19:10:54 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (9, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 193.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (9, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).', 'C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\system\\Database\\Postgre\\Connection.php', 193)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(193): pg_query(Object(PgSql\Connection), 'INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (:username:, :name:, :last_name:, :password:, :email:, :role_id:)', [...], false)
+ 6 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+ERROR - 2024-06-09 19:11:22 --> ErrorException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (10, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null). in C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\Postgre\Connection.php:193
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\Indate...', 193)
+#1 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\Postgre\Connection.php(193): pg_query(Object(PgSql\Connection), 'INSERT INTO "us...')
+#2 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\BaseConnection.php(722): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "us...')
+#3 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "us...')
+#4 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "us...', Array, false)
+#5 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#7 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Model.php(791): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\app\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert(Array)
+#9 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+#10 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+#11 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indate...')
+#16 {main}
+CRITICAL - 2024-06-09 19:11:22 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (10, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).
+[Method: POST, Route: api/v1/users]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (:username:, :name:, :last_name:, :password:, :email:, :role_id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 19:11:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (10, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 198.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (:username:, :name:, :last_name:, :password:, :email:, :role_id:)', [...], false)
+ 4 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 19:11:22 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (10, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 193.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (10, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).', 'C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\system\\Database\\Postgre\\Connection.php', 193)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(193): pg_query(Object(PgSql\Connection), 'INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (:username:, :name:, :last_name:, :password:, :email:, :role_id:)', [...], false)
+ 6 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+ERROR - 2024-06-09 19:12:52 --> ErrorException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (11, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null). in C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\Postgre\Connection.php:193
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\Indate...', 193)
+#1 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\Postgre\Connection.php(193): pg_query(Object(PgSql\Connection), 'INSERT INTO "us...')
+#2 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\BaseConnection.php(722): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "us...')
+#3 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "us...')
+#4 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "us...', Array, false)
+#5 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#7 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Model.php(791): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\app\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert(Array)
+#9 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+#10 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+#11 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indate...')
+#16 {main}
+CRITICAL - 2024-06-09 19:12:52 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (11, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).
+[Method: POST, Route: api/v1/users]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (:username:, :name:, :last_name:, :password:, :email:, :role_id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 19:12:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (11, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 198.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (:username:, :name:, :last_name:, :password:, :email:, :role_id:)', [...], false)
+ 4 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 19:12:52 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (11, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 193.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (11, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).', 'C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\system\\Database\\Postgre\\Connection.php', 193)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(193): pg_query(Object(PgSql\Connection), 'INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (:username:, :name:, :last_name:, :password:, :email:, :role_id:)', [...], false)
+ 6 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+ERROR - 2024-06-09 19:13:21 --> ErrorException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (12, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null). in C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\Postgre\Connection.php:193
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\Users\\Indate...', 193)
+#1 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\Postgre\Connection.php(193): pg_query(Object(PgSql\Connection), 'INSERT INTO "us...')
+#2 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\BaseConnection.php(722): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "us...')
+#3 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "us...')
+#4 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "us...', Array, false)
+#5 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#7 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Model.php(791): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\app\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert(Array)
+#9 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+#10 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+#11 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\Users\Indatech\Desktop\Alex\diplomado\proyecto\backend-proyecto\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indate...')
+#16 {main}
+CRITICAL - 2024-06-09 19:13:21 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (12, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).
+[Method: POST, Route: api/v1/users]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (:username:, :name:, :last_name:, :password:, :email:, :role_id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 19:13:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (12, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 198.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (:username:, :name:, :last_name:, :password:, :email:, :role_id:)', [...], false)
+ 4 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 19:13:21 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (12, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 193.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  el valor nulo en la columna «created_at» de la relación «users» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (12, xalecr30, alex, null, rodriguez, xalecr30@gmail.com, 123445, 1, null, null, null).', 'C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\system\\Database\\Postgre\\Connection.php', 193)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(193): pg_query(Object(PgSql\Connection), 'INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (\'xalecr30\', \'alex\', \'rodriguez\', \'123445\', \'xalecr30@gmail.com\', \'1\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("username", "name", "last_name", "password", "email", "role_id") VALUES (:username:, :name:, :last_name:, :password:, :email:, :role_id:)', [...], false)
+ 6 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Controllers\Api\V1\Users.php(33): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->create()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 19:21:15 --> ErrorException: Type of App\Models\UsersModel::$allowEmptyInserts must be bool (as in class CodeIgniter\BaseModel)
+[Method: POST, Route: api/v1/users]
+in APPPATH\Models\UsersModel.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-09 19:22:51 --> ErrorException: Type of App\Models\UsersModel::$allowEmptyInserts must be bool (as in class CodeIgniter\BaseModel)
+[Method: POST, Route: api/v1/users]
+in APPPATH\Models\UsersModel.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-09 19:36:10 --> Error: Call to undefined method CodeIgniter\HTTP\IncomingRequest::getPut()
+[Method: PUT, Route: api/v1/users/17]
+in APPPATH\Controllers\Api\V1\Users.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->update('17')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 19:36:33 --> Error: Call to undefined method CodeIgniter\HTTP\IncomingRequest::getPut()
+[Method: PUT, Route: api/v1/users/17]
+in APPPATH\Controllers\Api\V1\Users.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->update('17')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 19:45:59 --> ErrorException: Attempt to read property "username" on array
+[Method: PUT, Route: api/v1/users/17]
+in APPPATH\Controllers\Api\V1\Users.php on line 57.
+ 1 APPPATH\Controllers\Api\V1\Users.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', 'C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\app\\Controllers\\Api\\V1\\Users.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Users->update('17')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Users))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 19:54:08 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "13,14,15"
+[Method: DELETE, Route: api/v1/users/13,14,15]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('api/v1/users/13,14,15')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('api/v1/users/13,14,15')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 20:11:57 --> CodeIgniter\Validation\Exceptions\ValidationException: "category_id" is not a valid rule.
+[Method: GET, Route: api/v1/categories/1]
+in SYSTEMPATH\Controller.php on line 169.
+ 1 SYSTEMPATH\Controller.php(169): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('category_id')
+ 2 SYSTEMPATH\Controller.php(150): CodeIgniter\Controller->setValidator('category_id', [])
+ 3 APPPATH\Controllers\Api\V1\Categories.php(19): CodeIgniter\Controller->validateData([...], 'category_id')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Categories->show('1')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Categories))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 20:15:33 --> Error: Cannot use object of type stdClass as array
+[Method: PUT, Route: api/v1/categories/1]
+in APPPATH\Controllers\Api\V1\Categories.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Categories->update('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Categories))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 20:17:11 --> Error: Cannot use object of type stdClass as array
+[Method: PUT, Route: api/v1/categories/1]
+in APPPATH\Controllers\Api\V1\Categories.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Categories->update('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Categories))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 20:17:12 --> Error: Cannot use object of type stdClass as array
+[Method: PUT, Route: api/v1/categories/1]
+in APPPATH\Controllers\Api\V1\Categories.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Categories->update('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Categories))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 20:17:13 --> Error: Cannot use object of type stdClass as array
+[Method: PUT, Route: api/v1/categories/1]
+in APPPATH\Controllers\Api\V1\Categories.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Categories->update('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Categories))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 20:17:37 --> Error: Cannot use object of type stdClass as array
+[Method: PUT, Route: api/v1/categories/1]
+in APPPATH\Controllers\Api\V1\Categories.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Categories->update('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Categories))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 20:18:02 --> Error: Cannot use object of type stdClass as array
+[Method: PUT, Route: api/v1/categories/1]
+in APPPATH\Controllers\Api\V1\Categories.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Categories->update('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Categories))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 20:19:30 --> TypeError: json_decode(): Argument #1 ($json) must be of type string, stdClass given
+[Method: PUT, Route: api/v1/categories/1]
+in APPPATH\Controllers\Api\V1\Categories.php on line 46.
+ 1 APPPATH\Controllers\Api\V1\Categories.php(46): json_decode(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Categories->update('1')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Categories))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 20:19:41 --> TypeError: json_decode(): Argument #1 ($json) must be of type string, stdClass given
+[Method: PUT, Route: api/v1/categories/1]
+in APPPATH\Controllers\Api\V1\Categories.php on line 46.
+ 1 APPPATH\Controllers\Api\V1\Categories.php(46): json_decode(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\V1\Categories->update('1')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Categories))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')

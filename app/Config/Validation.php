@@ -42,10 +42,23 @@ class Validation extends BaseConfig
     // Rules
     // --------------------------------------------------------------------
 
-    public array $signup = [
-        'username'     => 'required|max_length[100]',
-        'password'     => 'required|max_length[255]',
-        'pass_confirm' => 'required|max_length[255]|matches[password]',
-        'email'        => 'required|max_length[254]|valid_email',
+    public array $user = [
+        'username'     => ['required','max_length[100]'],
+        'name'         => ['required','max_length[60]'],
+        'middle_name'  => ['max_length[60]'],
+        'last_name'    => ['required','max_length[60]'],
+        'password'     => ['required'],
+        'email'        => ['required','max_length[160]','valid_email'],
+        'role_id'      => ['required','numeric']
+    ];
+
+    public array $category = [
+        'name'         => ['required','max_length[100]'],
+        'is_new'       => ['required','numeric'],
+        'hidden'       => ['required','numeric'],     
+    ];
+
+    public array $id = [
+        'id' => 'required|numeric',
     ];
 }   
