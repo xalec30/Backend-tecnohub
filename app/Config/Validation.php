@@ -58,6 +58,10 @@ class Validation extends BaseConfig
         'hidden'       => ['required','numeric'],     
     ];
 
+    public array $tag = [
+        'name'         => ['required','max_length[100]'],   
+    ];
+
     public array $id = [
         'id' => 'required|numeric',
     ];
