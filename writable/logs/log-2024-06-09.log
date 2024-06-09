@@ -1356,3 +1356,19 @@ in APPPATH\Controllers\Api\V1\Tags.php on line 38.
  6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
  8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+CRITICAL - 2024-06-09 20:44:41 --> ErrorException: Declaration of App\Controllers\Api\V1\Roles::show($id) must be compatible with CodeIgniter\RESTful\ResourceController::show($id = null)
+[Method: GET, Route: api/v1/roles]
+in APPPATH\Controllers\Api\V1\Roles.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-09 20:44:59 --> ErrorException: Declaration of App\Controllers\Api\V1\Roles::show($id) must be compatible with CodeIgniter\RESTful\ResourceController::show($id = null)
+[Method: GET, Route: api/v1/roles]
+in APPPATH\Controllers\Api\V1\Roles.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-09 20:45:34 --> ErrorException: Declaration of App\Controllers\Api\V1\Roles::show($id) must be compatible with CodeIgniter\RESTful\ResourceController::show($id = null)
+[Method: GET, Route: api/v1/roles]
+in APPPATH\Controllers\Api\V1\Roles.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-09 20:46:08 --> ErrorException: Declaration of App\Controllers\Api\V1\Roles::show($id) must be compatible with CodeIgniter\RESTful\ResourceController::show($id = null)
+[Method: GET, Route: api/v1/roles]
+in APPPATH\Controllers\Api\V1\Roles.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

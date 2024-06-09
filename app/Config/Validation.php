@@ -62,6 +62,10 @@ class Validation extends BaseConfig
         'name'         => ['required','max_length[100]'],   
     ];
 
+    public array $role = [
+        'name'         => ['required','max_length[100]'],   
+    ];
+
     public array $id = [
         'id' => 'required|numeric',
     ];
