@@ -42,6 +42,11 @@ class Validation extends BaseConfig
     // Rules
     // --------------------------------------------------------------------
 
+    public array $auth = [
+        'username' => ['required'],
+        'password' => ['required'],
+    ];
+
     public array $user = [
         'username'     => ['required','max_length[100]'],
         'name'         => ['required','max_length[60]'],
