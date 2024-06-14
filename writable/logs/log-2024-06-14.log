@@ -729,3 +729,21 @@ in APPPATH\Controllers\Api\V1\Auth.php on line 43.
  8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Indatech\\Desktop\\Alex\\diplomado\\proyecto\\backend-proyecto\\public\\index.php')
+ERROR - 2024-06-14 03:31:28 --> Error connecting to the database: ErrorException: pg_connect(): Unable to connect to PostgreSQL server: ERROR:  Endpoint ID is not specified. Either please upgrade the postgres client library (libpq) for SNI support or pass the endpoint ID (first part of the domain name) as a parameter: '?options=endpoint%3D<endpoint-id>'. See more at https://neon.tech/sni
+ERROR:  connection is insecure (try using `sslmode=require`) in C:\xampp\htdocs\backend-proyecto\system\Database\Postgre\Connection.php:78
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_connect(): U...', 'C:\\xampp\\htdocs...', 78)
+#1 C:\xampp\htdocs\backend-proyecto\system\Database\Postgre\Connection.php(78): pg_connect('host=ep-orange-...')
+#2 C:\xampp\htdocs\backend-proyecto\system\Database\BaseConnection.php(421): CodeIgniter\Database\Postgre\Connection->connect(false)
+#3 C:\xampp\htdocs\backend-proyecto\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\backend-proyecto\system\Database\BaseConnection.php(1471): CodeIgniter\Database\BaseConnection->query('SELECT "table_n...')
+#5 C:\xampp\htdocs\backend-proyecto\system\Database\BaseConnection.php(1490): CodeIgniter\Database\BaseConnection->listTables()
+#6 C:\xampp\htdocs\backend-proyecto\system\Database\MigrationRunner.php(759): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#7 C:\xampp\htdocs\backend-proyecto\system\Database\MigrationRunner.php(163): CodeIgniter\Database\MigrationRunner->ensureTable()
+#8 C:\xampp\htdocs\backend-proyecto\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#9 C:\xampp\htdocs\backend-proyecto\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#10 C:\xampp\htdocs\backend-proyecto\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#11 C:\xampp\htdocs\backend-proyecto\system\Boot.php(338): CodeIgniter\CLI\Console->run()
+#12 C:\xampp\htdocs\backend-proyecto\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#13 C:\xampp\htdocs\backend-proyecto\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#14 {main}
