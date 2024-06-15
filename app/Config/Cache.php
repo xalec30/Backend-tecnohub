@@ -44,7 +44,8 @@ class Cache extends BaseConfig
      *
      * @deprecated Use the driver-specific variant under $file
      */
-    public string $storePath = WRITEPATH . 'cache/';
+    //public string $storePath = WRITEPATH . 'cache/';
+    public string $storePath = WRITEPATH . '';
 
     /**
      * --------------------------------------------------------------------------
@@ -92,7 +93,8 @@ class Cache extends BaseConfig
      * @var array<string, int|string|null>
      */
     public array $file = [
-        'storePath' => WRITEPATH . 'cache/',
+        //'storePath' => WRITEPATH . 'cache/',
+        'storePath' => WRITEPATH . '',
         'mode'      => 0640,
     ];
 
