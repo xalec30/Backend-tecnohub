@@ -44,7 +44,10 @@ class Users extends ResourceController{
 
         $result = $this->model->insert($data);
         $user_id = $this->model->getInsertID();
-        return $this->respond(['message' => 'user created','id' => $user_id],200);
+
+        $user = $this->model->find($user_id);
+
+        return $this->respond(['message' => 'user created','data' => $user,'id' => $user_id],200);
     }
 
     public function show($id = null){
