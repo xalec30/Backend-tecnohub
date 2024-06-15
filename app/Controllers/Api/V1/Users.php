@@ -83,7 +83,8 @@ class Users extends ResourceController{
 
         $this->model->update($id,$data);
 
-        return $this->respond(['message' => 'user updated'],200);
+        $user = $this->model->find($id);
+        return $this->respond(['user' => $user,'message' => 'user updated'],200);
     }
 
     public function delete($id = null){
