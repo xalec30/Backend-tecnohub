@@ -17,7 +17,7 @@ class AddRoleCapabilities extends Migration
             ],
         ]);
         $this->forge->addKey('id', true);
-        $this->forge->createTable('resources_capabilities');
+        $this->forge->createTable('roles_capabilities');
     }
 
     public function down()

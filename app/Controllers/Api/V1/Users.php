@@ -56,7 +56,6 @@ class Users extends ResourceController{
             'last_name' => $request->last_name,
             'password' => $request->password,
             'email' => $request->email,
-            'role_id' => $request->role_id
         ];
 
         if(!$this->validateData(['id' => $id],'id')){

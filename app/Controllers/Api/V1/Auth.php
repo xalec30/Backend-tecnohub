@@ -32,7 +32,7 @@ class Auth extends ResourceController{
         $user = $this->model->where('username',$data['username'])->first();
         
         if(!$user){
-            return $this->fail(['error' => 'Usuario no existe'],400);
+            return $this->fail(['error' => 'Usuario no registrado'],400);
         }
        
         if($user['password'] != $data['password']){
