@@ -21,11 +21,23 @@ class Users extends ResourceController{
             'last_name' => $this->request->getPost('last_name'),
             'password' => $this->request->getPost('password'),
             'email' => $this->request->getPost('email'),
-            'role_id' => $this->request->getPost('role_id')
+            'role_id' => 2
         ];
         
         if(!$this->validateData($data,'user')){
             return $this->fail($this->validator->getErrors(),400);
+        }
+        
+        $username_existent = $this->model->where('username',$data['username'])->findAll();
+
+        if($username_existent){
+            return $this->fail(['message' => "nombre de usuario no disponible."],400);
+        }
+
+        $email_existent = $this->model->where('email',$data['email'])->findAll();
+
+        if($email_existent){
+            return $this->fail(['message' => "correo ya registrado."],400);
         }
 
         $result = $this->model->insert($data);
@@ -56,6 +68,7 @@ class Users extends ResourceController{
             'last_name' => $request->last_name,
             'password' => $request->password,
             'email' => $request->email,
+            'role_id' => 2
         ];
 
         if(!$this->validateData(['id' => $id],'id')){
