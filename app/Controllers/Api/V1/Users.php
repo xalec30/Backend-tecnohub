@@ -14,13 +14,15 @@ class Users extends ResourceController{
 
     public function create(){
 
+        $request = $this->request->getJSON();
+
         $data = [
-            'username' => $this->request->getPost('username'),
-            'name' => $this->request->getPost('name'),
-            'middle_name' => $this->request->getPost('middle_name'),
-            'last_name' => $this->request->getPost('last_name'),
-            'password' => $this->request->getPost('password'),
-            'email' => $this->request->getPost('email'),
+            'username' => $request->username,
+            'name' => $request->name,
+            'middle_name' => $request->middle_name,
+            'last_name' => $request->last_name,
+            'password' => $request->password,
+            'email' => $request->email,
             'role_id' => 2
         ];
         
