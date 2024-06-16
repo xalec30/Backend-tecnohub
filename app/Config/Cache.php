@@ -206,7 +206,7 @@ if(strtoupper(substr(PHP_OS, 0, 3)) === 'WIN'){
          * @deprecated Use the driver-specific variant under $file
          */
 
-        public string $storePath =  '/tmp';
+        public string $storePath =  '';
 
         /**
          * --------------------------------------------------------------------------
@@ -254,7 +254,7 @@ if(strtoupper(substr(PHP_OS, 0, 3)) === 'WIN'){
          * @var array<string, int|string|null>
          */
         public array $file = [
-            'storePath' => '/tmp/',
+            'storePath' => '',
             'mode'      => 0640,
         ];
 
