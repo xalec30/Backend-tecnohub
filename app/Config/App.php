@@ -16,7 +16,7 @@ class App extends BaseConfig
      *
      * E.g., http://example.com/
      */
-    public string $baseURL = 'http://50.17.23.95/';
+    public string $baseURL = 'https://backend-tecnohub-production.up.railway.app/';
 
     /**
      * Allowed Hostnames in the Site URL other than the hostname in the baseURL.
